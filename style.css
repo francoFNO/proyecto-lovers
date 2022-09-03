@@ -13,7 +13,10 @@ html{
     text-decoration: none;
     font-size: 2rem;
 }
-
+nav ul li a{
+    color: black;
+    font-weight: bold;
+}
 body{
     background-attachment: fixed;
     min-height: 100%;
@@ -24,4 +27,31 @@ body{
 }
 .padding{
     padding: 15px;
+}
+
+.img-lovers{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.productos{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.productos .tamano{
+    border: solid black 5px;
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 0px 0px;
+    font-size: 4rem;
 }
