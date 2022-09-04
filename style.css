@@ -40,6 +40,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 10px;
+    flex-direction: row;
 }
 .productos{
     display: flex;
@@ -96,6 +97,37 @@ h4{
     padding:10px;
     margin: 50px;
     border: solid 5px #f589f240;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
     
-    
+}
+.contactanos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.boton-tamano{
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.acce{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.indu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.borde{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.margin{
+    margin-top: 30px;
 }
