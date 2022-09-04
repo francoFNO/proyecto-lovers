@@ -17,6 +17,13 @@ nav ul li a{
     color: black;
     font-weight: bold;
 }
+.sticky{
+    display: flex;
+    position: sticky;
+    top: 0;
+    color: black;
+    font-weight: bold;
+}
 body{
     background-attachment: fixed;
     min-height: 100%;
