@@ -17,6 +17,28 @@ nav ul li a{
     color: black;
     font-weight: bold;
 }
+
+.animacion::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #888888;
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform .25s;
+  }
+  
+  a:hover::after {
+    transform: scale(1,1);
+  }
+.imgIndex{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.imgIndex:hover{
+    transform: scale(0.95);
+}
+
 .sticky{
     display: flex;
     position: sticky;
