@@ -1,0 +1,46 @@
+.imgIndex{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.imgIndex:hover{
+    transform: scale(0.95);
+}
+.productos{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.productos .tamano{
+    border: solid $secondaryColor 5px;
+    margin: 20px;
+    padding: 15px;
+    background-color: $cuartoColor;
+}
+.containerIndumentaria{
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-content: space-between;
+    justify-content: center;
+    
+}
+.acce{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.indu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.borde{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.margin{
+    margin-top: 30px;
+}

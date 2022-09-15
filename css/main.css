@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap");
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.padding {
+  padding: 15px;
+}
+
+body {
+  background-attachment: fixed;
+  min-height: 100%;
+}
+
+.img-lovers {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: row;
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px 0px 0px;
+  font-size: 4rem;
+}
+
+.imgIndex {
+  width: 100%;
+}
+
+.img-logo {
+  width: 45%;
+}
+
+.img {
+  margin: 20px;
+  padding: 15px;
+  border: solid black 5px;
+  background-color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.bgSobre {
+  background-color: rgba(245, 137, 242, 0.2509803922);
+  line-height: 2.1;
+  padding: 10px;
+  margin: 50px;
+  border: solid 5px rgba(245, 137, 242, 0.2509803922);
+}
+
+.bg-color {
+  background-color: rgba(245, 137, 242, 0.5019607843);
+}
+
+.nav ul li a {
+  font-weight: bold;
+}
+.nav .animacion::after {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: #888888;
+  transform: scale(0, 1);
+  transform-origin: center;
+  transition: transform 0.25s;
+}
+.nav a:hover::after {
+  transform: scale(1, 1);
+}
+
+.gridContainer4 {
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  grid-template-areas: "nav nav nav" "titulo titulo titulo" ". sobre ." "footer footer footer";
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.titulo {
+  grid-area: titulo;
+}
+
+.header {
+  grid-area: header;
+}
+
+.texto {
+  grid-area: texto;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.sobre {
+  grid-area: sobre;
+}
+
+.formulario {
+  grid-area: formulario;
+}
+
+.containerIndumentaria {
+  grid-area: main;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.main {
+  grid-area: productos;
+}
+
+.gridContainer3 {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  grid-template-areas: "nav nav nav" "titulo titulo titulo" ". header ." ". main ." "footer footer footer";
+}
+
+.gridContainer1 {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  grid-template-areas: "nav nav nav" "header header header" "titulo titulo titulo" "productos productos productos" "footer footer footer";
+}
+
+@media (min-width: 992px) {
+  .gridContainer4 {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 94.25px 200px 400px 150px;
+    grid-template-areas: "nav nav nav" "titulo titulo titulo" ". sobre ." "footer footer footer";
+  }
+}
+@media (max-width: 992px) {
+  .gridContainer4 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 1040px) {
+  .gridContainer4 {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 600px) {
+  .gridContainer1 {
+    grid-template-columns: 1fr;
+  }
+  .imgIndex {
+    width: 100%;
+  }
+  .img {
+    width: 90%;
+  }
+  .img-logo {
+    width: 80%;
+    display: flex;
+    margin-right: 20px;
+  }
+  .gridContainer3 {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 508px) {
+  .titulo {
+    margin-left: 50px;
+  }
+}
+.imgIndex {
+  transition: 0.5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imgIndex:hover {
+  transform: scale(0.95);
+}
+
+.productos {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.productos .tamano {
+  border: solid black 5px;
+  margin: 20px;
+  padding: 15px;
+  background-color: white;
+}
+
+.containerIndumentaria {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.acce {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.indu {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.borde {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.margin {
+  margin-top: 30px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contactanos {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.boton-tamano {
+  width: 100px;
+  height: 30px;
+  margin-top: 30px;
+  font-size: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+.footer h4 {
+  font-size: 2rem;
+  margin-top: 10px;
+}/*# sourceMappingURL=main.css.map */
