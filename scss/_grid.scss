@@ -1,0 +1,62 @@
+.gridContainer4{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-areas: 
+    "nav nav nav"
+    "titulo titulo titulo"
+    ". sobre ."
+    "footer footer footer";
+}
+.nav{
+    grid-area: nav;
+}
+.titulo{
+    grid-area: titulo;
+}
+.header{
+    grid-area: header;
+}
+.texto{
+    grid-area: texto;
+}
+.footer{
+    grid-area: footer;
+}
+.sobre{
+    grid-area: sobre;
+}
+.formulario{
+    grid-area: formulario;
+}
+.containerIndumentaria{
+    grid-area: main;
+}
+.footer{
+    margin-top: 100px;
+}
+.main{
+    grid-area: productos;
+}
+
+.gridContainer3{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    
+    grid-template-areas: 
+    "nav nav nav"
+    "titulo titulo titulo"
+    ". header ."
+    ". main ."
+    "footer footer footer";
+}
+.gridContainer1{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "titulo titulo titulo"
+    "productos productos productos"
+    "footer footer footer";
+}

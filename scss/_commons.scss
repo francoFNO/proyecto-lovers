@@ -1,0 +1,67 @@
+$mainColor :#f589f280;
+$secondaryColor: black;
+$tercerColor:  #888888;
+$cuartoColor: white;
+$quintoColor:#f589f240;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.padding{
+    padding: 15px;
+}
+body{
+    background-attachment: fixed;
+    min-height: 100%;
+}
+.img-lovers{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: row;
+    width: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px 0px 0px;
+    font-size: 4rem;
+}
+.imgIndex{
+    width: 100%;
+}
+.img-logo{
+    width: 45%;
+}
+.img{
+    margin: 20px;
+    padding: 15px;
+    border:solid $secondaryColor 5px;
+    background-color: $cuartoColor;
+}
+.center{
+    text-align: center;
+    
+}
+.bgSobre{
+   
+    background-color:$quintoColor;
+    line-height: 2.1;
+    padding:10px;
+    margin: 50px;
+    border: solid 5px $quintoColor;
+}
