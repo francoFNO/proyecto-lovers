@@ -57,11 +57,21 @@ h1{
     text-align: center;
     
 }
-.bgSobre{
-   
-    background-color:$quintoColor;
-    line-height: 2.1;
-    padding:10px;
+
+@mixin sobre ($bgcolor,$interlineado,$border){
+    background-color: $bgcolor;
+    line-height: $interlineado;
+    padding: 10px;
     margin: 50px;
-    border: solid 5px $quintoColor;
+    border: $border;
 }
+
+.bgSobre{@include sobre($quintoColor,2.1,solid 5px $quintoColor )
+   
+    
+}
+//  background-color:$quintoColor;
+//      line-height: 2.1;
+//      padding:10px;
+//      margin: 50px;
+//      border: solid 5px $quintoColor;
