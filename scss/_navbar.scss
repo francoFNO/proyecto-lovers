@@ -1,5 +1,5 @@
 .bg-color{
-    background-color: $mainColor;
+    background-color: map-get($map:$paleta, $key:'uno');
 }
 
 
@@ -11,7 +11,7 @@
         content: "";
         display: block;
         height: 3px;
-        background-color: $tercerColor;
+        background-color: map-get($map:$paleta, $key:'tres');
         transform: scale(0,1);
         transform-origin: center;
         transition: transform .25s;
