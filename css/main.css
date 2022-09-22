@@ -49,8 +49,8 @@ h1 {
 .img {
   margin: 20px;
   padding: 15px;
-  border: solid black 5px;
-  background-color: white;
+  border: solid white 5px;
+  background-color: black;
 }
 
 .center {
@@ -220,12 +220,7 @@ h1 {
   justify-content: center;
 }
 
-.acce {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.indu {
+.acce, .indu {
   margin-top: 30px;
   margin-bottom: 30px;
 }

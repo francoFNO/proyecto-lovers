@@ -123,14 +123,14 @@ h4{
     text-align: center;
     
 }
-.bgSobre{
+/* .bgSobre{
    
     background-color: #f589f240;
     line-height: 2.1;
     padding:10px;
     margin: 50px;
     border: solid 5px #f589f240;
-}
+} */
 .formulario{
     display: flex;
     justify-content: center;

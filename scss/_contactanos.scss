@@ -1,8 +1,11 @@
-.formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@mixin flex($display,$justify,$align) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
     margin-bottom: 40px;
+}
+.formulario{
+    @include flex(flex,center ,center )
     
 }
 .contactanos{
@@ -16,3 +19,7 @@
     margin-top: 30px;
     font-size: 1.5rem;
 }
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // margin-bottom: 40px;
