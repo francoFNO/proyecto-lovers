@@ -23,7 +23,11 @@
         display: grid;
         grid-template-columns: auto
     }
+    .img-logo{
+        width: 65%;
+    }
 }
+
 @media(max-width:600px){
     .gridContainer1{
         grid-template-columns: 1fr;
@@ -50,4 +54,21 @@
     .titulo{
             margin-left: 50px;
         }
+    .img-logo{
+        width: 75%;
+    }
+    .productos{
+        width: 80%;
+        margin: auto;
+    }
+    .img{
+        width: 69.2%;
+        margin: auto;
+        margin-bottom: 42px;
+    }
+    .titulo{
+        margin: auto;
+        margin-top: 20px;
+        font-size: 30px;
+    }
 }
