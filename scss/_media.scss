@@ -25,6 +25,7 @@
     }
     .img-logo{
         width: 65%;
+        overflow: hidden;
     }
 }
 
@@ -42,7 +43,7 @@
         width: 80%;
         display: flex;
         margin-right: 20px;
-
+        overflow: hidden;
     }
     
     .gridContainer3{
@@ -56,6 +57,7 @@
         }
     .img-logo{
         width: 75%;
+        overflow-x: hidden;
     }
     .productos{
         width: 80%;

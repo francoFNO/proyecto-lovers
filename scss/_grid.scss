@@ -37,6 +37,12 @@
 .main{
     grid-area: productos;
 }
+.imgCenter{
+    grid-area: img;
+}
+.btnCenter{
+    grid-area: btn;
+}
 
 .gridContainer3{
     display: grid;
@@ -59,4 +65,12 @@
     "titulo titulo titulo"
     "productos productos productos"
     "footer footer footer";
+}
+.gridContainerError{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+
+    grid-template-areas: 
+    ". img ."
+    ". btn .";
 }

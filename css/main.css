@@ -20,6 +20,7 @@ html {
 body {
   background-attachment: fixed;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 .img-lovers {
@@ -44,6 +45,7 @@ h1 {
 
 .img-logo {
   width: 40%;
+  overflow: hidden;
 }
 
 .img {
@@ -63,6 +65,48 @@ h1 {
   padding: 40px;
   margin: 50px;
   border: solid 5px rgba(245, 137, 242, 0.2509803922);
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.635);
+}
+
+h2 button a {
+  color: white;
+  text-decoration: none;
+}
+
+.button {
+  border: 1px solid black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  background-color: rgba(245, 137, 242, 0.5019607843);
+  border-radius: 0.6rem;
+}
+
+body button a {
+  color: black;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+body button a:hover {
+  color: black;
+}
+
+.btnCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.imgError {
+  width: 100%;
 }
 
 .bg-color {
@@ -131,6 +175,14 @@ h1 {
   grid-area: productos;
 }
 
+.imgCenter {
+  grid-area: img;
+}
+
+.btnCenter {
+  grid-area: btn;
+}
+
 .gridContainer3 {
   display: grid;
   grid-template-columns: 50px auto 50px;
@@ -141,6 +193,12 @@ h1 {
   display: grid;
   grid-template-columns: 50px auto 50px;
   grid-template-areas: "nav nav nav" "header header header" "titulo titulo titulo" "productos productos productos" "footer footer footer";
+}
+
+.gridContainerError {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  grid-template-areas: ". img ." ". btn .";
 }
 
 @media (min-width: 992px) {
@@ -164,6 +222,7 @@ h1 {
   }
   .img-logo {
     width: 65%;
+    overflow: hidden;
   }
 }
 @media (max-width: 600px) {
@@ -180,6 +239,7 @@ h1 {
     width: 80%;
     display: flex;
     margin-right: 20px;
+    overflow: hidden;
   }
   .gridContainer3 {
     grid-template-columns: 1fr;
@@ -191,6 +251,7 @@ h1 {
   }
   .img-logo {
     width: 75%;
+    overflow-x: hidden;
   }
   .productos {
     width: 80%;
@@ -272,10 +333,22 @@ h1 {
 }
 
 .boton-tamano {
-  width: 100px;
-  height: 30px;
+  border: 1px solid black;
+  padding: 5px 15px;
   margin-top: 30px;
   font-size: 1.5rem;
+  background-color: rgba(245, 137, 242, 0.5019607843);
+}
+
+section button a {
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.boton-tamano:hover {
+  background-color: rgba(245, 137, 242, 0.5019607843);
+  border: 1px solid black;
 }
 
 .footer {
