@@ -27,6 +27,7 @@ html{
 body{
     background-attachment: fixed;
     min-height: 100%;
+    overflow-x: hidden;
 }
 .img-lovers{
     display: flex;
@@ -47,6 +48,7 @@ h1{
 }
 .img-logo{
     width: 40%;
+    overflow: hidden;
 }
 .img{
     margin: 20px;
@@ -70,4 +72,47 @@ h1{
 .bgSobre{@include sobre(map-get($map:$paleta, $key:'cinco'),2.1,solid 5px map-get($map:$paleta, $key:'cinco') )
    
     
+}
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(245, 245, 245, 0.635);
+    
+}
+
+h2 button a{
+    color: map-get($map: $paleta, $key: cuatro);
+    text-decoration: none;
+}
+
+
+
+.button {
+    
+    border: 1px solid map-get($map: $paleta, $key:dos );
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    background-color: map-get($map: $paleta, $key:uno );
+    border-radius: 0.6rem;
+    
+}
+body button a{
+    color: map-get($map: $paleta, $key:dos );
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+body button a:hover{
+    color: map-get($map: $paleta, $key:dos );
+}
+.btnCenter{
+    display: flex;
+    justify-content: center;
+}
+.imgError{
+    width: 100%;
 }

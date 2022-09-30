@@ -14,8 +14,20 @@
     
 }
 .boton-tamano{
-    width: 100px;
-    height: 30px;
+    border: 1px solid map-get($map: $paleta, $key:dos );
+    padding: 5px 15px;
     margin-top: 30px;
     font-size: 1.5rem;
+    background-color: map-get($map: $paleta, $key:uno );
+    
+}
+section button a{
+    color: map-get($map: $paleta, $key:dos );
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.boton-tamano:hover{
+    background-color: map-get($map: $paleta, $key:uno );
+    border: 1px solid map-get($map: $paleta, $key:dos );
 }
