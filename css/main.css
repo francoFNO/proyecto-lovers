@@ -336,7 +336,13 @@ body button a:hover {
   border: 1px solid black;
   padding: 5px 15px;
   margin-top: 30px;
+  margin-left: 56px;
   font-size: 1.5rem;
+  background-color: rgba(245, 137, 242, 0.5019607843);
+}
+
+.boton-tamano:hover {
+  border: 1px solid black;
   background-color: rgba(245, 137, 242, 0.5019607843);
 }
 
@@ -344,11 +350,6 @@ section button a {
   color: black;
   text-align: center;
   font-size: 2rem;
-}
-
-.boton-tamano:hover {
-  background-color: rgba(245, 137, 242, 0.5019607843);
-  border: 1px solid black;
 }
 
 .footer {
