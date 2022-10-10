@@ -13,6 +13,7 @@ desarrollar un sitio informativo con los productos que se pueden adquirir
 * navegar por las distintas secciones del sitio
 * acceder a las distintas redes sociales
 * poder comunicarce por mail
+* en la seccion de contacto al apretar el btn enviar te manda a la pagina 404
 
 ## construido con
 * html
